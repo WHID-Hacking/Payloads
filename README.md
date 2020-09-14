@@ -38,8 +38,8 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Authors
 
-* **Rick Theeuwes** - *Porject starters* - [Riqky](https://github.com/Riqky)
-* **Merlijn Vermeer** - *Project starters* - [Merlijnv](https://github.com/Merlijnv)
+* **Rick Theeuwes** - *Project starter* - [Riqky](https://github.com/Riqky)
+* **Merlijn Vermeer** - *Project starter* - [Merlijnv](https://github.com/Merlijnv)
 
 ## Acknowledgments
 
