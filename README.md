@@ -1,3 +1,4 @@
+![CI](https://github.com/Riqky/Payloads/workflows/CI/badge.svg)
 # Payloads for P4wnP1 A.L.O.A. and WHID
 
 One Paragraph of project description goes here
