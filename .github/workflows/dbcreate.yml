@@ -40,4 +40,4 @@ jobs:
           # Docker Image to extract files from
           image: merlijnv/payloads
           # Path (from root) to a file or directory within Image
-          path: /root/test.txt
+          path: /root/P4wnP1_aloa/dist/db/init.db
