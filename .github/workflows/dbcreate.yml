@@ -30,7 +30,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: my-docker-hub-namespace/my-docker-hub-repository
+          repository: merlijnv/payloads
           tag_with_ref: true
       - name: Extract db
       # You may pin to the exact commit or the version.
