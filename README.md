@@ -1,4 +1,4 @@
-![CI](https://github.com/Merlijnv/Payloads/workflows/CI/badge.svg)
+![CI](https://github.com/WHID-Hacking/Payloads/workflows/CI/badge.svg)
 # Payloads for P4wnP1 A.L.O.A. and WHID
 
 One Paragraph of project description goes here
