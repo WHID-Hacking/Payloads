@@ -2,7 +2,7 @@
 
 One Paragraph of project description goes here
 
-For the WHID specific readme [click here](WHID/README.md)
+For the WHID specific readme [click here](/WHID/README.md)
 
 ## Getting Started
 
