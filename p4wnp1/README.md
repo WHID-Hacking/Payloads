@@ -18,18 +18,9 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+* HID Scripts should be placed in ``` /usr/local/P4wnP1/HIDScripts ```
+* Shell scripts should be places in ``` /usr/local/P4wnP1/scripts accessible ```
+* Loot directory will be created in: ``` /usr/local/P4wnP1/www/loot ``` and is accessible via browser at: ``` http://172.XX.0.1:8000/loot/ ```
 
-Say what the step will be
+**You can find the usage and requirements information in the comments inside each file**
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
