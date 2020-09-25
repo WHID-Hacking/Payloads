@@ -10,11 +10,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+A good way to get started is download the [p4wnp1 iso file](https://github.com/RoganDawes/P4wnP1_aloa/releases).
+Burn it to your sd card folowing the [inscructions](https://github.com/RoganDawes/P4wnP1_aloa#0-how-to-install).
+
+After that you can clone the repository
 
 ```
-Give examples
+git clone https://github.com/WHID-Hacking/Payloads.git
 ```
+
+after that you can copy all the files by sftp.
 
 ### Installing
 
