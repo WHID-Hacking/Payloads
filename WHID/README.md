@@ -2,7 +2,7 @@
 
 One Paragraph of project description goes here
 
-For the P4wnP1 A.L.O.A. specific readme [click here](p4wnp1/README.md)
+For the P4wnP1 A.L.O.A. specific readme [click here](/p4wnp1/README.md)
 
 ## Getting Started
 

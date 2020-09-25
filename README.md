@@ -1,41 +1,13 @@
-![CI](https://github.com/Merlijnv/Payloads/workflows/CI/badge.svg)
+![CI](https://github.com/WHID-Hacking/Payloads/workflows/CI/badge.svg)
 # Payloads for P4wnP1 A.L.O.A. and WHID
 
-One Paragraph of project description goes here
+This is a repository with multiple payloads for 2 HID attacking devices called P4wnP1 and WHID.
+Below you can find the instructions to both devices and how to use the payloads on them.
 
 For the P4wnP1 A.L.O.A. specific readme [click here](p4wnp1/README.md)
 
 For the WHID specific readme [click here](WHID/README.md)
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Authors
 
