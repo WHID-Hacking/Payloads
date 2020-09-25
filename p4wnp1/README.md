@@ -6,7 +6,7 @@ For the WHID specific readme [click here](WHID/README.md)
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project and explains how to deploy it on the p4wnp1 os running on raspberry pi zero w.
 
 ### Prerequisites
 
